@@ -1,0 +1,13 @@
+name: airline-satisfaction-ci
+
+python_env:
+  python: "3.10"
+  pip:
+    - mlflow
+    - pandas
+    - numpy
+    - scikit-learn
+
+entry_points:
+  main:
+    command: "python modelling.py"
